@@ -177,7 +177,7 @@ if(isset($_REQUEST["install"]) && $_REQUEST["install"] == "yes")
 
 
         $message = "bWAPP has been installed successfully!";
-        header("location:http://localhost/eni/dvwa/");
+        header("location:http://localhost/securiteWEB/dvwa/");
     }
 
     else

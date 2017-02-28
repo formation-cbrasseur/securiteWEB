@@ -92,7 +92,7 @@ if(isset($login) && isset($pass)){
     
 <div id="security_level">
   
-    <form action="/eni/bWAPP/unvalidated_redir_fwd_2.php" method="POST">
+    <form action="/securiteWEB/bWAPP/unvalidated_redir_fwd_2.php" method="POST">
         
         <label>Set your security level:</label><br />
         
@@ -113,7 +113,7 @@ if(isset($login) && isset($pass)){
     
 <div id="bug">
 
-    <form action="/eni/bWAPP/unvalidated_redir_fwd_2.php" method="POST">
+    <form action="/securiteWEB/bWAPP/unvalidated_redir_fwd_2.php" method="POST">
         
         <label>Choose your bug:</label><br />
         
