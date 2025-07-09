@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "formation-cbrasseur",
+        "projectKey": "formation-cbrasseur_securiteWEB"
+    }
+}

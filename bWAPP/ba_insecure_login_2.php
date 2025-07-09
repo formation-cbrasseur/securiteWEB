@@ -25,7 +25,7 @@ $bugs = file("bugs.txt");
 if(isset($_POST["form_bug"]) && isset($_POST["bug"]))
 {
         
-            $key = $_POST["bug"]; 
+            $key = htmlspecialchars($_POST["bug"]); 
             $bug = explode(",", trim($bugs[$key]));
             
             // Debugging
